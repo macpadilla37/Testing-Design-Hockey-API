@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40728372AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728362AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift */; };
+		D40728392AFB51E900DE04FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728382AFB51E900DE04FE /* ContentView.swift */; };
+		D407283B2AFB51EF00DE04FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D407283A2AFB51EF00DE04FE /* Assets.xcassets */; };
+		D407283F2AFB51EF00DE04FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D407283E2AFB51EF00DE04FE /* Preview Assets.xcassets */; };
+		D40728492AFB51EF00DE04FE /* Testing_Design_Hockey_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728482AFB51EF00DE04FE /* Testing_Design_Hockey_APITests.swift */; };
+		D40728532AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728522AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift */; };
+		D40728552AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728542AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D40728452AFB51EF00DE04FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D407282B2AFB51E900DE04FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40728322AFB51E900DE04FE;
+			remoteInfo = "Testing Design Hockey API";
+		};
+		D407284F2AFB51EF00DE04FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D407282B2AFB51E900DE04FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40728322AFB51E900DE04FE;
+			remoteInfo = "Testing Design Hockey API";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D40728332AFB51E900DE04FE /* Testing Design Hockey API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing Design Hockey API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40728362AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Design_Hockey_APIApp.swift; sourceTree = "<group>"; };
+		D40728382AFB51E900DE04FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D407283A2AFB51EF00DE04FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D407283C2AFB51EF00DE04FE /* Testing_Design_Hockey_API.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Testing_Design_Hockey_API.entitlements; sourceTree = "<group>"; };
+		D407283E2AFB51EF00DE04FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D40728442AFB51EF00DE04FE /* Testing Design Hockey APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing Design Hockey APITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40728482AFB51EF00DE04FE /* Testing_Design_Hockey_APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Design_Hockey_APITests.swift; sourceTree = "<group>"; };
+		D407284E2AFB51EF00DE04FE /* Testing Design Hockey APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing Design Hockey APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40728522AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Design_Hockey_APIUITests.swift; sourceTree = "<group>"; };
+		D40728542AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Design_Hockey_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40728302AFB51E900DE04FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40728412AFB51EF00DE04FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D407284B2AFB51EF00DE04FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D407282A2AFB51E900DE04FE = {
+			isa = PBXGroup;
+			children = (
+				D40728352AFB51E900DE04FE /* Testing Design Hockey API */,
+				D40728472AFB51EF00DE04FE /* Testing Design Hockey APITests */,
+				D40728512AFB51EF00DE04FE /* Testing Design Hockey APIUITests */,
+				D40728342AFB51E900DE04FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D40728342AFB51E900DE04FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40728332AFB51E900DE04FE /* Testing Design Hockey API.app */,
+				D40728442AFB51EF00DE04FE /* Testing Design Hockey APITests.xctest */,
+				D407284E2AFB51EF00DE04FE /* Testing Design Hockey APIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40728352AFB51E900DE04FE /* Testing Design Hockey API */ = {
+			isa = PBXGroup;
+			children = (
+				D40728362AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift */,
+				D40728382AFB51E900DE04FE /* ContentView.swift */,
+				D407283A2AFB51EF00DE04FE /* Assets.xcassets */,
+				D407283C2AFB51EF00DE04FE /* Testing_Design_Hockey_API.entitlements */,
+				D407283D2AFB51EF00DE04FE /* Preview Content */,
+			);
+			path = "Testing Design Hockey API";
+			sourceTree = "<group>";
+		};
+		D407283D2AFB51EF00DE04FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D407283E2AFB51EF00DE04FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D40728472AFB51EF00DE04FE /* Testing Design Hockey APITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40728482AFB51EF00DE04FE /* Testing_Design_Hockey_APITests.swift */,
+			);
+			path = "Testing Design Hockey APITests";
+			sourceTree = "<group>";
+		};
+		D40728512AFB51EF00DE04FE /* Testing Design Hockey APIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40728522AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift */,
+				D40728542AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift */,
+			);
+			path = "Testing Design Hockey APIUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40728322AFB51E900DE04FE /* Testing Design Hockey API */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40728582AFB51EF00DE04FE /* Build configuration list for PBXNativeTarget "Testing Design Hockey API" */;
+			buildPhases = (
+				D407282F2AFB51E900DE04FE /* Sources */,
+				D40728302AFB51E900DE04FE /* Frameworks */,
+				D40728312AFB51E900DE04FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Testing Design Hockey API";
+			productName = "Testing Design Hockey API";
+			productReference = D40728332AFB51E900DE04FE /* Testing Design Hockey API.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40728432AFB51EF00DE04FE /* Testing Design Hockey APITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D407285B2AFB51EF00DE04FE /* Build configuration list for PBXNativeTarget "Testing Design Hockey APITests" */;
+			buildPhases = (
+				D40728402AFB51EF00DE04FE /* Sources */,
+				D40728412AFB51EF00DE04FE /* Frameworks */,
+				D40728422AFB51EF00DE04FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40728462AFB51EF00DE04FE /* PBXTargetDependency */,
+			);
+			name = "Testing Design Hockey APITests";
+			productName = "Testing Design Hockey APITests";
+			productReference = D40728442AFB51EF00DE04FE /* Testing Design Hockey APITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D407284D2AFB51EF00DE04FE /* Testing Design Hockey APIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D407285E2AFB51EF00DE04FE /* Build configuration list for PBXNativeTarget "Testing Design Hockey APIUITests" */;
+			buildPhases = (
+				D407284A2AFB51EF00DE04FE /* Sources */,
+				D407284B2AFB51EF00DE04FE /* Frameworks */,
+				D407284C2AFB51EF00DE04FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40728502AFB51EF00DE04FE /* PBXTargetDependency */,
+			);
+			name = "Testing Design Hockey APIUITests";
+			productName = "Testing Design Hockey APIUITests";
+			productReference = D407284E2AFB51EF00DE04FE /* Testing Design Hockey APIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D407282B2AFB51E900DE04FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D40728322AFB51E900DE04FE = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					D40728432AFB51EF00DE04FE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D40728322AFB51E900DE04FE;
+					};
+					D407284D2AFB51EF00DE04FE = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = D40728322AFB51E900DE04FE;
+					};
+				};
+			};
+			buildConfigurationList = D407282E2AFB51E900DE04FE /* Build configuration list for PBXProject "Testing Design Hockey API" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D407282A2AFB51E900DE04FE;
+			productRefGroup = D40728342AFB51E900DE04FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40728322AFB51E900DE04FE /* Testing Design Hockey API */,
+				D40728432AFB51EF00DE04FE /* Testing Design Hockey APITests */,
+				D407284D2AFB51EF00DE04FE /* Testing Design Hockey APIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40728312AFB51E900DE04FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D407283F2AFB51EF00DE04FE /* Preview Assets.xcassets in Resources */,
+				D407283B2AFB51EF00DE04FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40728422AFB51EF00DE04FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D407284C2AFB51EF00DE04FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D407282F2AFB51E900DE04FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40728392AFB51E900DE04FE /* ContentView.swift in Sources */,
+				D40728372AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40728402AFB51EF00DE04FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40728492AFB51EF00DE04FE /* Testing_Design_Hockey_APITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D407284A2AFB51EF00DE04FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40728532AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift in Sources */,
+				D40728552AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D40728462AFB51EF00DE04FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40728322AFB51E900DE04FE /* Testing Design Hockey API */;
+			targetProxy = D40728452AFB51EF00DE04FE /* PBXContainerItemProxy */;
+		};
+		D40728502AFB51EF00DE04FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40728322AFB51E900DE04FE /* Testing Design Hockey API */;
+			targetProxy = D407284F2AFB51EF00DE04FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D40728562AFB51EF00DE04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D40728572AFB51EF00DE04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D40728592AFB51EF00DE04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Testing Design Hockey API/Testing_Design_Hockey_API.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Testing Design Hockey API/Preview Content\"";
+				DEVELOPMENT_TEAM = H2ANL4K7JB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Testing-Design-Hockey-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D407285A2AFB51EF00DE04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Testing Design Hockey API/Testing_Design_Hockey_API.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Testing Design Hockey API/Preview Content\"";
+				DEVELOPMENT_TEAM = H2ANL4K7JB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Testing-Design-Hockey-API";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D407285C2AFB51EF00DE04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2ANL4K7JB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Testing-Design-Hockey-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing Design Hockey API.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Testing Design Hockey API";
+			};
+			name = Debug;
+		};
+		D407285D2AFB51EF00DE04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2ANL4K7JB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Testing-Design-Hockey-APITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Testing Design Hockey API.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Testing Design Hockey API";
+			};
+			name = Release;
+		};
+		D407285F2AFB51EF00DE04FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2ANL4K7JB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Testing-Design-Hockey-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Testing Design Hockey API";
+			};
+			name = Debug;
+		};
+		D40728602AFB51EF00DE04FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2ANL4K7JB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Testing-Design-Hockey-APIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Testing Design Hockey API";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D407282E2AFB51E900DE04FE /* Build configuration list for PBXProject "Testing Design Hockey API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40728562AFB51EF00DE04FE /* Debug */,
+				D40728572AFB51EF00DE04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40728582AFB51EF00DE04FE /* Build configuration list for PBXNativeTarget "Testing Design Hockey API" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40728592AFB51EF00DE04FE /* Debug */,
+				D407285A2AFB51EF00DE04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D407285B2AFB51EF00DE04FE /* Build configuration list for PBXNativeTarget "Testing Design Hockey APITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D407285C2AFB51EF00DE04FE /* Debug */,
+				D407285D2AFB51EF00DE04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D407285E2AFB51EF00DE04FE /* Build configuration list for PBXNativeTarget "Testing Design Hockey APIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D407285F2AFB51EF00DE04FE /* Debug */,
+				D40728602AFB51EF00DE04FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D407282B2AFB51E900DE04FE /* Project object */;
+}
