@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D405F4C42AFC3233000F42E6 /* FjallaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D405F4C32AFC3232000F42E6 /* FjallaOne-Regular.ttf */; };
+		D405F4C82AFC7152000F42E6 /* BlackOpsOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D405F4C72AFC7151000F42E6 /* BlackOpsOne-Regular.ttf */; };
 		D40728372AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728362AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift */; };
 		D40728392AFB51E900DE04FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728382AFB51E900DE04FE /* ContentView.swift */; };
 		D407283B2AFB51EF00DE04FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D407283A2AFB51EF00DE04FE /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		D40728492AFB51EF00DE04FE /* Testing_Design_Hockey_APITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728482AFB51EF00DE04FE /* Testing_Design_Hockey_APITests.swift */; };
 		D40728532AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728522AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift */; };
 		D40728552AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40728542AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift */; };
+		D47755922AFD815300DC9DAC /* PushNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47755912AFD815300DC9DAC /* PushNotifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D405F4C22AFC23F5000F42E6 /* Testing-Design-Hockey-API-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Testing-Design-Hockey-API-Info.plist"; sourceTree = SOURCE_ROOT; };
+		D405F4C32AFC3232000F42E6 /* FjallaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FjallaOne-Regular.ttf"; sourceTree = "<group>"; };
+		D405F4C72AFC7151000F42E6 /* BlackOpsOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BlackOpsOne-Regular.ttf"; sourceTree = "<group>"; };
 		D40728332AFB51E900DE04FE /* Testing Design Hockey API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Testing Design Hockey API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40728362AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Design_Hockey_APIApp.swift; sourceTree = "<group>"; };
 		D40728382AFB51E900DE04FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +51,7 @@
 		D407284E2AFB51EF00DE04FE /* Testing Design Hockey APIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing Design Hockey APIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40728522AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Design_Hockey_APIUITests.swift; sourceTree = "<group>"; };
 		D40728542AFB51EF00DE04FE /* Testing_Design_Hockey_APIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_Design_Hockey_APIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D47755912AFD815300DC9DAC /* PushNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,10 +102,14 @@
 		D40728352AFB51E900DE04FE /* Testing Design Hockey API */ = {
 			isa = PBXGroup;
 			children = (
+				D405F4C32AFC3232000F42E6 /* FjallaOne-Regular.ttf */,
+				D405F4C72AFC7151000F42E6 /* BlackOpsOne-Regular.ttf */,
 				D40728362AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift */,
 				D40728382AFB51E900DE04FE /* ContentView.swift */,
+				D47755912AFD815300DC9DAC /* PushNotifications.swift */,
 				D407283A2AFB51EF00DE04FE /* Assets.xcassets */,
 				D407283C2AFB51EF00DE04FE /* Testing_Design_Hockey_API.entitlements */,
+				D405F4C22AFC23F5000F42E6 /* Testing-Design-Hockey-API-Info.plist */,
 				D407283D2AFB51EF00DE04FE /* Preview Content */,
 			);
 			path = "Testing Design Hockey API";
@@ -233,6 +244,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D405F4C82AFC7152000F42E6 /* BlackOpsOne-Regular.ttf in Resources */,
+				D405F4C42AFC3233000F42E6 /* FjallaOne-Regular.ttf in Resources */,
 				D407283F2AFB51EF00DE04FE /* Preview Assets.xcassets in Resources */,
 				D407283B2AFB51EF00DE04FE /* Assets.xcassets in Resources */,
 			);
@@ -261,6 +274,7 @@
 			files = (
 				D40728392AFB51E900DE04FE /* ContentView.swift in Sources */,
 				D40728372AFB51E900DE04FE /* Testing_Design_Hockey_APIApp.swift in Sources */,
+				D47755922AFD815300DC9DAC /* PushNotifications.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +438,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Testing-Design-Hockey-API-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -462,6 +477,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Testing-Design-Hockey-API-Info.plist";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
